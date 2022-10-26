@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="./css/newstyle.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./dist/css/newstyle.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -25,9 +26,7 @@
     />
     <link type="text/css" rel="stylesheet" href="css/plugins.css" />
     <link type="text/css" rel="stylesheet" href="css/style.css?ver=1.1" />
-    <!--[if lt IE 9
-      ]><script type="text/javascript" src="js/modernizr.custom.js"></script
-    ><![endif]-->
+   
     <link rel="icon" type="image/x-icon" href="./LOGO.jpg" />
   </head>
   <body class="home-static">
@@ -48,21 +47,21 @@
             <ul>
               <li class="menu-item">
                 <a
-                  href=""
+                  href="https://app.uniswap.org/#/swap?outputCurrency=0x2f9678085acf1897f63a102e9f7cb835609158d1"
                   >Buy Now</a
                 >
               </li>
               <li class="menu-item">
                 <a
-                  href=""
+                  href="https://www.dextools.io/app/en/ether/pair-explorer/0x10d902e82a04f4b1e6f3db259da050e530bc43c6"
                   >Chart</a
                 >
               </li>
               <li class="menu-item">
-                <a href="">Telegram</a>
+                <a href="https://t.me/VBcommunityERC">Telegram</a>
               </li>
               <li class="menu-item">
-                <a href="">Twitter</a>
+                <a href="https://twitter.com/VB_Token">Twitter</a>
               </li>
               <li class="menu-item">
                 <a
@@ -173,35 +172,7 @@
                 color: #75dab4;
               }
             </style>
-            <script>
-              $(function () {
-                var a = $(window);
-                function t() {
-                  var n = a.scrollTop(),
-                    e = 1.1 * a.height();
-                  $(".revealOnScroll:not(.animated").each(function () {
-                    var a = $(this);
-                    a.offset().top < n + e &&
-                      (a.data("timeout")
-                        ? window.setTimeout(function () {
-                            a.addClass("animated" + a.data("animation"));
-                          }, parseInt(a.data("timeout"), 10))
-                        : a.addClass("animated" + a.data("animation")));
-                  }),
-                    $("revealOnScroll.animated").each(function (a) {
-                      var t = $(this).offset().top;
-                      n + e < t &&
-                        $(this).removeClass(
-                          "animated fadeInUp flipInX lightSpeedIn"
-                        );
-                    });
-                }
-                a.height(),
-                  Modernizer.touch && $(".revealOnScroll").addClass(animated),
-                  a.on("scroll", t),
-                  t();
-              });
-            </script>
+        
           </div>
           <div class="hero_content">
             <div class="container">
@@ -223,13 +194,7 @@
                   Vitalik Buterin
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore placeat aspernatur repellat quasi? Odit commodi animi
-                  numquam qui adipisci, dicta molestiae reprehenderit fugit nam.
-                  Perferendis minima eius quaerat enim assumenda. Expedita
-                  dignissimos repellendus perferendis facilis repellat in, sunt,
-                  aliquid velit non est quo quam cumque maiores, nobis
-                  voluptatibus fuga ducimus?
+                  Where would we be without Vitalik Buterin?  He’s given us so much, it’s time for a community to honor him as he should be.  Raised from the ashes of a bad acting dev and 100% community run, $VB is here to pay tribute to our daddy Vitalik.  0% tax, LP burned forever, and 2% of tokens are held by Vitalik himself; powered by a based community and pure memes, Vitalik will recognize us if it’s the last thing we do!
                 </p>
                 <!-- <div
                   class="buttons"
@@ -312,26 +277,7 @@
                     border-radius: 5px;
                   }
                 </style>
-                <script>
-                  const answer = document.getElementById("copyResult");
-                  const copy = document.getElementById("copyButton");
-                  const selection = window.getSelection();
-                  const range = document.createRange();
-                  const textToCopy = document.getElementById("textToCopy");
-
-                  copy.addEventListener("click", function (e) {
-                    range.selectNodeContents(textToCopy);
-                    selection.removeAllRanges();
-                    selection.addRange(range);
-                    const successful = document.execCommand("copy");
-                    if (successful) {
-                      answer.innerHTML = "$VB";
-                    } else {
-                      answer.innerHTML = "Unable to copy!";
-                    }
-                    window.getSelection().removeAllRanges();
-                  });
-                </script>
+           
               </div>
             </div>
           </div>
@@ -375,9 +321,7 @@
                     data-animation="rollIn"
                     data-timeout="900"
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint asperiores impedit vel harum at, tempore maiores nam
-                    consequuntur ea, magni voluptas? Sit quo maiores dolor.
+                  $VB is the namesake token of Ethereum creator Vitalik Buterin.  100% community run with 0 taxes and burned LP, it’s like a club of extremely awesome people who all make money together
                   </p>
                 </div>
 
@@ -391,7 +335,7 @@
                   >
                     <span class="text">Medium</span>
                   </a>
-                  <a href="" target="_blank" class="neoh_fn_button only_text revealOnScroll"  data-animation="bounceIn"
+                  <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x10d902e82a04f4b1e6f3db259da050e530bc43c6" target="_blank" class="neoh_fn_button only_text revealOnScroll"  data-animation="bounceIn"
                   data-timeout="1200">
                     <span class="text">Chart</span>
                   </a>
@@ -522,14 +466,14 @@
 
                 <div class="buttons">
                   <a
-                    href=""
+                    href="https://app.uniswap.org/#/swap?outputCurrency=0x2f9678085acf1897f63a102e9f7cb835609158d1"
                     target="_blank"
                     class="neoh_fn_button only_text verynewbutton revealOnScroll" data-animation="bounceIn"
                     data-timeout="1100"
                   >
                     <span class="text">Buy Now</span>
                   </a>
-                  <a href="" target="_blank" class="neoh_fn_button only_text revealOnScroll"data-animation="bounceIn"
+                  <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x10d902e82a04f4b1e6f3db259da050e530bc43c6" target="_blank" class="neoh_fn_button only_text revealOnScroll"data-animation="bounceIn"
                   data-timeout="1100" >
                     <span class="text">Chart</span>
                   </a>
@@ -586,21 +530,19 @@
                           data-animation="fadeInUp"
                           data-timeout="900"
                         >
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Sint asperiores impedit vel harum at, tempore maiores nam
-                          consequuntur ea, magni voluptas? Sit quo maiores dolor.
+                        We believe in the power of community, and every community leader is a VOLUNTEER working on behalf of their $VB.
                         </p>
                       </div>
                     <div class="buttons">
                       <a
-                        href=""
+                        href="https://t.me/VBcommunityERC"
                         target="_blank"
                         class="neoh_fn_button only_text verynewbutton revealOnScroll" data-animation="rotateIn"
                         data-timeout="1100"
                       >
                         <span class="text">Telegram</span>
                       </a>
-                      <a href="" target="_blank" class="neoh_fn_button only_text revealOnScroll" data-animation="rotateIn"
+                      <a href="https://twitter.com/VB_Token" target="_blank" class="neoh_fn_button only_text revealOnScroll" data-animation="rotateIn"
                       data-timeout="1200">
                         <span class="text">Twitter</span>
                       </a>
@@ -734,6 +676,26 @@ Massive Community Giveaways <br>
     <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
     <script src=""></script>
     <script>
+      const answer = document.getElementById("copyResult");
+      const copy = document.getElementById("copyButton");
+      const selection = window.getSelection();
+      const range = document.createRange();
+      const textToCopy = document.getElementById("textToCopy");
+
+      copy.addEventListener("click", function (e) {
+        range.selectNodeContents(textToCopy);
+        selection.removeAllRanges();
+        selection.addRange(range);
+        const successful = document.execCommand("copy");
+        if (successful) {
+          answer.innerHTML = "$VB";
+        } else {
+          answer.innerHTML = "Unable to copy!";
+        }
+        window.getSelection().removeAllRanges();
+      });
+    </script>
+    <script>
       $(function () {
         var a = $(window);
         function t() {
@@ -763,4 +725,4 @@ Massive Community Giveaways <br>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
   </body>
 </html>
-z
+
